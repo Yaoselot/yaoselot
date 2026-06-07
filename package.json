@@ -1,0 +1,26 @@
+{
+  "name": "yaoselot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yaoselot/yaoselot#readme",
+  "bugs": {
+    "url": "https://github.com/Yaoselot/yaoselot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaoselot/yaoselot.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "sass": "^1.100.0",
+    "vite": "^8.0.16"
+  }
+}

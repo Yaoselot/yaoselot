@@ -1,0 +1,27 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+
+.tarjetas {
+    padding-top: 50px;
+    @include m.contenedor;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+
+    .tarjeta {
+        max-width: 300px;
+        padding: 1rem 1rem;
+        @include m.sombreado;
+
+    }
+}
+
+.tarjeta_amarilla {
+    background-color: v.$amarillo;
+}
+
+.tarjeta_azul {
+    background-color: v.$azul;
+}
